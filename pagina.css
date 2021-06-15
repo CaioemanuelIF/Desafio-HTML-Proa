@@ -125,14 +125,7 @@ p{
 }
 
 /*textos*/
-#texto5 {
-    margin-right: 50px;
-    margin-left: 800px;
-   font-weight: 200;
-   color: rgb(114, 114, 114);
-   font-size: 20px;
-   font-family: 'railway', sans-serif;
-}
+
 #texto5 h1{
     margin-bottom: 10px;
 }
@@ -141,14 +134,15 @@ p{
     font-family: 'montserrat', sans-serif;
 }
 #texto5{
+    border-top: 1px solid rgb(235, 235, 235);
     margin-right: 50px;
     margin-left: 800px;
-   margin-top: 300px;
-   margin-bottom: 100px;
-   font-weight: 200;
-   color: rgb(114, 114, 114);
-   font-size: 20px;
-   font-family: 'railway', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 200;
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    font-family: 'railway', sans-serif;
 }
 
 #texto4 h1{
@@ -605,7 +599,7 @@ label{
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #00a8a0;
   }
   
 .formulario {
@@ -632,8 +626,9 @@ label{
     margin-top: 380px;
 }
 .menu-footer {
+    border-left: 1px solid rgb(235, 235, 235);
     margin-top: 200px;
-    margin-left: 500px;
+    margin-left: 50px;
 }
 
 .menu-footer a{
@@ -648,7 +643,9 @@ label{
     text-decoration: none;
     margin-top: 5px;
 }
-
+.menu-footer a:hover{
+    color: rgb(255, 255, 255);
+}
 
 .pokemons{
     opacity: 0;
