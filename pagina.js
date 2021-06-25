@@ -30,3 +30,5 @@ carouselButtons.forEach((button) => {
     });
   });
 });
+
+
